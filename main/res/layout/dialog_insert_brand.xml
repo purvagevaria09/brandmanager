@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="255dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.pg.brandtest.activity.ShowBrandListingActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Insert Your Brand"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/txtBrandName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter brand name "
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:text=""
+        android:typeface="sans"/>
+
+
+    <EditText
+        android:id="@+id/txtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter brand description "
+        android:maxLines="1"
+        android:text=""
+        android:typeface="sans"/>
+
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bcbfcf"
+        android:text="Insert"
+        android:textColor="@color/colorPrimary"/>
+
+
+</LinearLayout>
